@@ -91,7 +91,7 @@ app.use('/wechat', wechat(connConfig, wechat.event(function (message, req, res, 
 
 /**
  *
- * @param arr : today or tomorrow lesson arr
+ * @param arr : today or tomorrow lesson arrrrrr
  */
 function getLessonStr(arr) {
   var lessonStr = '一共要上' + arr.length + '门课\n\n';
