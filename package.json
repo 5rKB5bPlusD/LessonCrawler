@@ -1,0 +1,23 @@
+{
+  "name": "LearnWechat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cheerio": "latest",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "mongodb": "latest",
+    "mongoose": "^4.6.3",
+    "superagent-charset": "^1.1.1",
+    "wechat": "latest",
+    "wechat-api": "^1.28.1",
+    "superagent": "latest",
+    "iconv-lite": "latest",
+    "array-unique": "latest",
+    "clean-array": "latest",
+    "cheerio-tableparser": "latest"
+  }
+}

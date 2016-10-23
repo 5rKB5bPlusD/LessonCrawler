@@ -1,0 +1,36 @@
+{
+  "is_debug": true,
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": "27017",
+    "db": "mongodb://clarkzsd:aaa18072997390@ds044989.mlab.com:44989/wechat"
+  },
+  "wx": {
+    "app_id": "wx9386acdb2e06a333",
+    "app_secret": "6fdde517222256f805ee87cbb25b9947",
+    "wx_menu": {
+      "button": [
+        {
+          "type": "click",
+          "name": "关于我们",
+          "key": "ABOUT_US"
+        },
+        {
+          "name": "查询课表",
+          "sub_button": [
+            {
+              "type": "click",
+              "name": "今日课表",
+              "key": "TODAY_LESSON"
+            },
+            {
+              "type": "click",
+              "name": "明日课表",
+              "key": "TOM_LESSON"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
