@@ -13,7 +13,6 @@
     "mongoose": "^4.6.3",
     "superagent-charset": "^1.1.1",
     "wechat": "latest",
-    "wechat-api": "^1.28.1",
     "superagent": "latest",
     "iconv-lite": "latest",
     "array-unique": "latest",

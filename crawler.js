@@ -103,7 +103,7 @@ module.exports = function (userInfo, callback) {
 
 
 /*
- Util 函数
+ Util function
  */
 
 function getOneDayLessonInfo(arr) {

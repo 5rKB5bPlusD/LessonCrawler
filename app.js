@@ -1,22 +1,19 @@
-var API = require('wechat-api');
 var wechat = require('wechat');
 var config = require('./wx_config');
 var getLesson = require('./crawler');
 
 var app_id = config.wx.app_id;
-var app_secret = config.wx.app_secret;
 var express = require('express');
 var mongoose = require('mongoose');
 require('./models/User.js');
 var User = mongoose.model('User');
 
-var api = new API(app_id, app_secret);
 
 var app = express();
 var connConfig = {
-  token: 'helloworld',
+  token: '',
   appid: app_id,
-  encodingAESKey: 'FpZToPuX7eV2KQUYI6bKept60YhSq31RzTgucmJCXf4'
+  encodingAESKey: ''
 };
 
 app.use(express.query());
