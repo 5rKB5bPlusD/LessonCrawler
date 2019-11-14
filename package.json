@@ -10,7 +10,7 @@
     "debug": "~2.2.0",
     "express": "~4.13.4",
     "mongodb": "latest",
-    "mongoose": "^4.6.3",
+    "mongoose": "^5.7.10",
     "superagent-charset": "^1.1.1",
     "wechat": "latest",
     "superagent": "latest",
