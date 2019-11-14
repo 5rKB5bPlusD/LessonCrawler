@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "cheerio": "latest",
-    "debug": "~2.2.0",
+    "debug": "~4.1.1",
     "express": "~4.13.4",
     "mongodb": "latest",
     "mongoose": "^4.6.3",
